@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  background-color: aquamarine;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  height: 10%;
+  border: 10px solid gray;
+  width: 30%;
+  margin: auto;
+  background-color: white;
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+}
+.input-container {
+  flex-direction: column;
+}
+.result-box {
+  border: 1px dashed rgb(204, 63, 63);
+  width: 30%;
+  height: 10%;
+  margin: auto;
+  padding: 20px;
+}
